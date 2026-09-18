@@ -8,10 +8,12 @@
 brew tap CaoHaoran-Dev/apptap
 ```
 
-## Available Formulae
+## Available Casks
 
-| Formula | Description |
+| Casks | Description |
 |---|---|
+| `runprocess` | A Spotlight-style command launcher for macOS with a translucent interface and menu bar integration. |
+| `swift-zip-manager` | macOS archive file manager, built with Swift + SwiftUI. |
 
 ## License
 
