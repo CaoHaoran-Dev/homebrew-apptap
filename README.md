@@ -6,6 +6,7 @@
 
 ```bash
 brew tap CaoHaoran-Dev/apptap
+brew trust CaoHaoran-Dev/apptap
 ```
 
 ## Available Casks
