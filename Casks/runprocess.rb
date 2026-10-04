@@ -1,8 +1,8 @@
 cask "runprocess" do
-  version "3.0.0"
-  sha256 "1a14151557db833370e1520fccf81d933fea1251025a35a25eb0b17b4bef16f1"
+  version "3.2.1"
+  sha256 "50632aa23cbc9dbfeb95e30a35ced9888c8cda239486ecb7aecafa9b7a18ad18"
 
-  url "https://github.com/CaoHaoran-Dev/homebrew-apptap/releases/download/v2026.9.18/RunProcess.zip"
+  url "https://github.com/CaoHaoran-Dev/RunProcess/releases/download/v3.2.1/RunProcess.zip"
   name "RunProcess"
   desc "A Spotlight-style command launcher for macOS"
   homepage "https://github.com/CaoHaoran-Dev/RunProcess"
