@@ -10,8 +10,6 @@ cask "runprocess" do
   app "RunProcess.app"
 
   postflight_steps do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "/Applications/RunProcess.app"],
-                   sudo: false
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "/Applications/RunProcess.app"]
   end
 end

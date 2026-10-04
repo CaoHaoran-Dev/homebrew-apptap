@@ -10,8 +10,7 @@ cask "swift-zip-manager" do
   app "Swift-Zip-Manager.app"
 
   postflight_steps do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "/Applications/Swift-Zip-Manager.app"],
-                   sudo: false
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "/Applications/Swift-Zip-Manager.app"]
   end
 end
